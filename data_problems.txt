@@ -1,0 +1,24 @@
+level 1 data for flat dataset cleaning
+1) data contain some duplicated row ------- done
+2)column headers are added at row no 288      ------- done
+3) data is incomplete for rows ranging from 2996 to 3005 and row number 2852,2853,2854,2855,2925,2926,2927,2929,2930 --------done
+4 row 1077 society is mention as dot .---------pending
+5) some of society name are in lower case however some of them are present in uppercase normalise these socity names ------done
+6) check row number 45,117,274,385,1796,1873,2193,2725,2871-------------done
+7)row number 2769 contain missing value in society column.-----------pending
+8) for price column some price are in crore some of them are in lack normalize them. ---------done
+9)row number 20,27,1647,1975,2057,2360,2525,2552,2643,2962,2975,2976 contain price on request value in price column ----------done
+10) Price column contain missing values in it.--------------done
+11) Rs per square feet area= price/carpet_area those row where price is unknown we need to fill it manually ----------done
+12)their are 3 area with type present in data 1)carpet area 2)super built up area 3) built up area
+13) row 109 does not have square feet values-----pending
+14) remove bedroom from bedroom column-----------done
+15)remove bathroom from bathroom column------------done
+16)both bedroom and bathroom  and balcony column contain some null values.--------------- pending
+17) remove balcony word from balcony column-------done
+18) addition room column contain high number of missing values add 0 in place of  missing values ------done
+19) floor num column contain 2 information 1) total floor 2) flat_floor ----- done
+20)facing column contains highly missing data-----done
+
+
+level 1 data for independant houses dataset cleaning
