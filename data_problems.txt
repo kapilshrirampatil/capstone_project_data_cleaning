@@ -22,3 +22,17 @@ level 1 data for flat dataset cleaning
 
 
 level 1 data for independant houses dataset cleaning
+1) Row number 62 to 74 ,180 to 201,355 to 358,360 to 371,373 to 375,896,1093 to 1096 contains incomplete data remove it
+2)no duplicated data present in dataset
+3)remove column link and property_id
+4) society column contains to many missing values also it has some values like nul,not applicable also normalise society column
+5) price column contain some values in lac and some in crore remove and normalise it in crore
+6)price column also contain missing data
+7)rate column is in object perform cleaning and change datatype into float
+8)area column is in sq. mt convert it into sqft
+9)area with type contains a missing data. also it has category like 1)plot area 2)carpett area 3)build up area
+10) Remove bathroom,bedroom and balcony from bathroom ,bedroom and balcony column.
+11) Also their are some missing rows present in all these 3 columns
+12) addition room contains missing values fill those with not available
+13) Remove floors from no of floor column and handle missing value in it
+14) Add na to miisng place in facing column
